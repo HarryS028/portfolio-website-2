@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="app.component.css">
+      <title>Harry Shuttleworth</title>
+    </head>
+    <body>
+      <div class="nav-bar">
+        
+        <p>nav bar here</p>
+      </div>
+
+      <div class="top-text">
+        <div class="bottom-text">
+          <h1 class="name">Harry Shuttleworth</h1>
+          <p> &lt; Web and blockchain developer &gt; </p>
+        </div>
+      </div>
+
+      <div class="nav-bar-2">
+          <button (click)="loadAboutComponent();">About</button>
+          <button (click)="loadProjectsComponent();">Projects</button>
+          <button (click)="loadSkillsComponent();">Skills</button>
+          <button (click)="loadContactComponent();">Contact</button>
+      </div>
+
+      <div>
+        <app-about *ngIf="aboutComponent"></app-about>        
+        <app-projects *ngIf="projectComponent"></app-projects>
+        <app-skills *ngIf="skillsComponent"></app-skills>
+        <app-contact *ngIf="contactComponent"></app-contact>
+      </div>
+    </body>
+
+  </html>

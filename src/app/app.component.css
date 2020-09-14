@@ -1,0 +1,35 @@
+.name{
+    text-align: center;
+}
+
+.top-text{
+    height: 250px;
+    position: relative;
+}
+
+.bottom-text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%
+}
+
+.nav-bar{
+    background-color: cornsilk;
+    height: 50px;
+}
+
+.nav-bar-2{
+    background-color: crimson;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+button{
+    display: inline-block;
+    width: 25%;
+    height: 50px;
+}
+
