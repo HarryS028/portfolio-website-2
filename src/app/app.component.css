@@ -20,7 +20,6 @@
 }
 
 .nav-bar-2{
-    background-color: crimson;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -31,5 +30,11 @@ button{
     display: inline-block;
     width: 25%;
     height: 50px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 10px 10px 8px #888888;
 }
 
