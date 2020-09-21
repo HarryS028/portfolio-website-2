@@ -1,10 +1,13 @@
 .name{
     text-align: center;
+    color: black;
+    letter-spacing: 0.3px;
 }
 
 .top-text{
     height: 250px;
     position: relative;
+    font-size: x-large;
 }
 
 .bottom-text{
@@ -29,12 +32,54 @@
 button{
     display: inline-block;
     width: 25%;
-    height: 50px;
+    height: 40px;
     font-size: 20px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-    border: none;
+    background: none;
+    border-radius: 0px;
+    border: 1px solid black;
     outline: none;
-    box-shadow: 10px 10px 8px #888888;
+    /*box-shadow: 5px 5px 4px #888888;*/
+    color: black;
+    transition: 2s;
+    overflow: hidden;
+    margin: 5px;
 }
 
+button:focus {
+    outline: none;
+}
+
+button:before {
+    content: '';
+    display: block;
+    background: rgba(255,255,255,0.5);
+    opacity: 0.5;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+button:after {
+    content: '';
+    display: block;
+    background: rgba(255,255,255,.2);
+    opacity: 0;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+}
+
+button:hover {
+   background: #6C7F8D;
+   cursor: pointer;
+}
+
+button:hover:before {
+ transform: translateX(300px) skewX(-15deg);
+ opacity: .6;
+ transition: .7s;
+}
+
+button:hover:after {
+ transform: translateX(300px) skewX(-15deg);
+ opacity: 1;
+ transition: .7s;
+}
