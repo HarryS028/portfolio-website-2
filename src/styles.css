@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .primary-container{
     /*background-color: aquamarine;*/
-    background: none;
+    background: rgba(255, 255, 255, 0.75);
     width: 48.3%;
     margin: auto;
     margin-top: 10px;
@@ -9,7 +9,7 @@
     border-radius: 0px;
     /*box-shadow: 5px 5px 4px #6C7F8D;*/
     padding: 10px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 body {

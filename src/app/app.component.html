@@ -14,6 +14,7 @@
       </div>
 
       <div class="nav-bar-2">
+          <button (click)="loadHomeComponent();">Home</button>
           <button (click)="loadAboutComponent();">About</button>
           <button (click)="loadProjectsComponent();">Projects</button>
           <button (click)="loadSkillsComponent();">Skills</button>
@@ -21,6 +22,7 @@
       </div>
 
       <div>
+        <app-home *ngIf="homeComponent"></app-home>
         <app-about *ngIf="aboutComponent"></app-about>        
         <app-projects *ngIf="projectComponent"></app-projects>
         <app-skills *ngIf="skillsComponent"></app-skills>

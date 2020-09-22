@@ -6,16 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  aboutComponent = true;
+  aboutComponent = false;
   skillsComponent = false;
   projectComponent = false;
   contactComponent = false;
+  homeComponent = true;
+
+  loadHomeComponent () {
+    this.aboutComponent = false;
+    this.skillsComponent = false;
+    this.projectComponent = false;
+    this.contactComponent = false;
+    this.homeComponent = true;
+  };
 
   loadAboutComponent () {
     this.aboutComponent = true;
     this.skillsComponent = false;
     this.projectComponent = false;
     this.contactComponent = false;
+    this.homeComponent = false;
   }; 
   
   loadSkillsComponent () {
@@ -23,6 +33,7 @@ export class AppComponent {
     this.skillsComponent = true;
     this.projectComponent = false;
     this.contactComponent = false;
+    this.homeComponent = false;
   };
 
   loadProjectsComponent () {
@@ -30,6 +41,7 @@ export class AppComponent {
     this.skillsComponent = false;
     this.projectComponent = true;
     this.contactComponent = false;
+    this.homeComponent = false;
   };
 
   loadContactComponent () {
@@ -37,5 +49,6 @@ export class AppComponent {
     this.skillsComponent = false;
     this.projectComponent = false;
     this.contactComponent = true;
+    this.homeComponent = false;
   };
 }
