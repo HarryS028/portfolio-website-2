@@ -22,10 +22,12 @@
 }
 
 .nav-bar-2{
-    width: 50%;
+    width: 40%;
     display: flex;
-    justify-content: center;
     margin: auto;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 55%;
 }
 
 button{
@@ -35,7 +37,7 @@ button{
     font-size: 20px;
     background: none;
     border-radius: 0px;
-    border: 1px solid black;
+    border: none;
     outline: none;
     /*box-shadow: 5px 5px 4px #888888;*/
     /*color: black;*/
@@ -83,3 +85,17 @@ button:hover:after {
  opacity: 1;
  transition: .7s;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo{
+    width: 5%;
+    padding: none;
+    position: absolute;
+    left: 5%;
+    top: 1%;
+}
+
