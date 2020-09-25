@@ -41,7 +41,7 @@ button{
     outline: none;
     /*box-shadow: 5px 5px 4px #888888;*/
     /*color: black;*/
-    transition: 2s;
+    transition: 1s;
     overflow: hidden;
     margin: 5px;
     background: rgba(255, 255, 255, 0);
@@ -75,15 +75,15 @@ button:hover {
 }
 
 button:hover:before {
- transform: translateX(300px) skewX(-15deg);
- opacity: .6;
- transition: .7s;
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
 }
 
 button:hover:after {
- transform: translateX(300px) skewX(-15deg);
- opacity: 1;
- transition: .7s;
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
 }
 
 img {
