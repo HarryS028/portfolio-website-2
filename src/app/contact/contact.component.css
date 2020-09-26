@@ -23,7 +23,7 @@
     margin: 10px 0;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid #c5ecfd;
+    border-bottom: 2px solid #174D87;
     padding: 10px;
     color: black;
     width: 100%;
@@ -46,7 +46,7 @@
 }
 
 .btn{
-    background: #39b7dd;
+    background: #174D87;
     text-align: center;
     padding: 15px;
     border-radius: 5px;
