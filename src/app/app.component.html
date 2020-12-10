@@ -1,29 +1,26 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <script src="https://requirejs.org/docs/release/2.3.6/comments/require.js"></script>
       <link rel="stylesheet" type="text/css" href="app.component.css">
       <title>Harry Shuttleworth</title>
     </head>
     <body>
 
       <div class="logo">
-        <img src="../assets/images/blue-logo-round.png" alt="Harry Logo">
+        <a routerLink="/"><img src="../assets/images/blue-logo-round.png" alt="Harry Logo"></a>
       </div>
 
       <div class="nav-bar-2">
-          <button (click)="loadHomeComponent();">Home</button>
-          <button (click)="loadAboutComponent();">About</button>
-          <button (click)="loadProjectsComponent();">Projects</button>
-          <button (click)="loadSkillsComponent();">Skills</button>
-          <button (click)="loadContactComponent();">Contact</button>
+          <button routerLink="/">Home</button>
+          <button routerLink="/about">About</button>
+          <button routerLink="/projects">Projects</button>
+          <button routerLink="/skills">Skills</button>
+          <button routerLink="/contact">Contact</button>
       </div>
 
       <div>
-        <app-home *ngIf="homeComponent"></app-home>
-        <app-about *ngIf="aboutComponent"></app-about>
-        <app-projects *ngIf="projectComponent"></app-projects>
-        <app-skills *ngIf="skillsComponent"></app-skills>
-        <app-contact *ngIf="contactComponent"></app-contact>
+        <router-outlet></router-outlet>
       </div>
 
       <div>

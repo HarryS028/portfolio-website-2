@@ -26,7 +26,7 @@
     border-bottom: 2px solid #174D87;
     padding: 10px;
     color: black;
-    width: 100%;
+    width: 80%;
 }
 
 .msg textarea {
@@ -53,6 +53,7 @@
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
+    width: 80%;
 }
 
 @media screen and (max-width: 600px){

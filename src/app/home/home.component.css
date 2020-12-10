@@ -1,19 +1,21 @@
 .desc {
-    left: 47.5%;
+    left: 5%;
     position: absolute;
     top: 30%;
     padding: none;
-    width: 5%;
+    height: 100px;
+    width: 90%;
+    text-align: center;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    width: auto;
 }
 
 .tag-line{
-    width: 20%;
-    left: 40%;
+    width: 90%;
+    left: 5%;
     top: 43%;
     position: absolute;
     text-align: center;
@@ -32,6 +34,17 @@ img {
     position: absolute;
     top: 50%;
     text-align: center;
-    left: 40%;
-    width: 20%;
+    left: 5%;
+    width: 90%;
+}
+
+#link-block img {
+    width: 2.5%;
+    margin-right: 2%;
+}
+
+#link-block {
+    text-align: center;
+    margin-top: 42%;
+    margin-left: 3%;
 }
