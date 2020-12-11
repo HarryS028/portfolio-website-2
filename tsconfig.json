@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/client/",
+    "outDir": "./dist/client",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
