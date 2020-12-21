@@ -1,4 +1,10 @@
-# Client
+# Portfolio website
+
+My portfolio website, please visit at: http://www.hshuttleworth.com/
+
+The website was built with Angular, JavaScript, HTML, and CSS.
+
+# Website information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
