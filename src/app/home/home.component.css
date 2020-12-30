@@ -39,12 +39,14 @@ img {
 }
 
 #link-block img {
-    width: 2.5%;
+    width: 50px;
     margin-right: 2%;
 }
 
 #link-block {
+    position: absolute;
+    top: 50%;
     text-align: center;
-    margin-top: 42%;
-    margin-left: 3%;
+    left: 6%;
+    width: 90%;
 }
